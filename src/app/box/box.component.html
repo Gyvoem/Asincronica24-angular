@@ -1,0 +1,15 @@
+<!-- <p>¿Cuál es tu deporte favorito?</p>
+<input matInput type="text" id="nombreInput" name="nombreInput">
+ -->
+<h1 mat-dialog-title>Hi {{data.name}}</h1>
+<div mat-dialog-content>
+  <p>Cuál es tu deporte favorito?</p>
+  <mat-form-field appearance="fill">
+    <mat-label>Deporte favorito</mat-label>
+    <input matInput [(ngModel)]="data.sport">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="data.sport" cdkFocusInitial>Aceptar</button>
+</div>

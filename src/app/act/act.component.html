@@ -1,0 +1,23 @@
+<section class="sectionGeneral">
+  <section class="pb-5 text-black">
+      <img src="./assets/angular.png" alt="" width="160px" class="pb-5">
+      <p class="text1">Angular Material</p>
+  </section>
+  
+  <section>
+      <mat-form-field appearance="fill">
+          <mat-label>Cual es tu nombre?</mat-label>
+          <input matInput [(ngModel)]="name">
+      </mat-form-field>
+  </section>
+  <section>
+      <button mat-raised-button (click)="openDialog()">Abrir Dialog</button>
+  </section>
+  <section>
+      <span *ngIf="sport" class="text2">
+          Tu deporte favorito es: <i>{{sport}}</i>
+      </span>
+  </section>   
+</section>
+
+
