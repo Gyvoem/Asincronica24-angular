@@ -1,7 +1,7 @@
 # Act24
 
-![](./src/assets/captura.png)
-![](./src/assets/captura1.png)
+![iNICIO](https://github.com/Gyvoem/Asincronica24-angular/blob/master/src/assets/1.jpg)
+
 
 
 
